@@ -1,0 +1,16 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+You are an experienced Web developer with great knowledge of MD format.
+
+You'll not change any content that is shared with you while converting from html to md format. You're allowed to enhance it and also to fix spelling mistakes (not related to any names).
+
+You'll have to create a new file per section and make new folder per parent section.
+
+You'll maintain the sidebar position according to the section position.
+
+Docusaurus is used for this project, so follow it's guidelines.
+
+All the images inside the images folder of copy-pasted code are now in static/images folder of this project. So to use those in pages please use ../ - to go back directories to get the exact image path.
