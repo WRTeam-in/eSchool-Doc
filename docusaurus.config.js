@@ -37,27 +37,27 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'mobileApp',
-        path: 'mobileApp', // Folder with markdown files
-        routeBasePath: 'mobileApp', // URL path
+        id: 'mobile-app',
+        path: 'mobile-app', // Folder with markdown files
+        routeBasePath: 'mobile-app', // URL path
         sidebarPath: require.resolve('./mobileAppSidebar.js'),
       },
     ],
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'adminPanel',
-        path: 'adminPanel', // Another folder
-        routeBasePath: 'adminPanel',
+        id: 'admin-panel',
+        path: 'admin-panel', // Another folder
+        routeBasePath: 'admin-panel',
         sidebarPath: require.resolve('./adminPanelSidebar.js'),
       },
     ],
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'webPage',
-        path: 'webPage', // Another folder
-        routeBasePath: 'webPage',
+        id: 'web-page',
+        path: 'web-page', // Another folder
+        routeBasePath: 'web-page',
         sidebarPath: require.resolve('./webPageSidebar.js'),
       },
     ],
@@ -125,21 +125,21 @@ const config = {
         },
         items: [
           {
-            docsPluginId: 'mobileApp',
+            docsPluginId: 'mobile-app',
             type: 'docSidebar',
             sidebarId: 'mobileAppSidebar',
             position: 'left',
             label: 'Mobile App',
           },
           {
-            docsPluginId: 'adminPanel',
+            docsPluginId: 'admin-panel',
             type: 'docSidebar',
             sidebarId: 'adminPanelSidebar',
             position: 'left',
             label: 'Admin Panel',
           },
           {
-            docsPluginId: 'webPage',
+            docsPluginId: 'web-page',
             type: 'docSidebar',
             sidebarId: 'webPageSidebar',
             position: 'left',
@@ -204,9 +204,9 @@ const config = {
 
       ({
         hashed: true,
-        docsRouteBasePath: ["mobileApp", "adminPanel", "webPage", "features"],
-        docsDir: ["mobileApp", "adminPanel", "webPage", "features"],
-        docsPluginIdForPreferredVersion: "mobileApp",
+        docsRouteBasePath: ["mobile-app", "admin-panel", "web-page", "features"],
+        docsDir: ["mobile-app", "admin-panel", "web-page", "features"],
+        docsPluginIdForPreferredVersion: "mobile-app",
       }),
     ],
   ],

@@ -132,7 +132,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/mobileApp/intro"
+            to="/mobile-app/"
           >
             Get Started
           </Link>
@@ -172,7 +172,7 @@ function HomepageFeatures() {
               <div className="card__footer">
                 <Link
                   className="button button--outline button--primary"
-                  to="/mobileApp/intro"
+                  to="/mobile-app/"
                 >
                   Mobile App Setup
                 </Link>
@@ -204,7 +204,7 @@ function HomepageFeatures() {
               <div className="card__footer">
                 <Link
                   className="button button--outline button--primary"
-                  to="/adminPanel/intro"
+                  to="/admin-panel/"
                 >
                   Admin Panel Setup
                 </Link>
@@ -236,7 +236,7 @@ function HomepageFeatures() {
               <div className="card__footer">
                 <Link
                   className="button button--outline button--primary"
-                  to="/webPage/intro"
+                  to="/web-page/"
                 >
                   Web Pages Setup
                 </Link>
@@ -268,7 +268,7 @@ function HomepageFeatures() {
               <div className="card__footer">
                 <Link
                   className="button button--outline button--primary"
-                  to="/features/intro"
+                  to="/features/"
                 >
                   Explore Features
                 </Link>
