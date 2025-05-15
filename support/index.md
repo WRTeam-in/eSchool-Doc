@@ -2,7 +2,7 @@
 
 ## How Can We Help You?
 
-At eSchool, we're committed to providing exceptional support for all our users. Whether you have questions about features, need technical assistance, or want to share feedback, our team is ready to help you succeed.
+At WRTeam, we're committed to providing exceptional support for all our users. Whether you have questions about features, need technical assistance, or want to share feedback, our team is ready to help you succeed.
 
 ## Contact Information
 
