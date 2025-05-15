@@ -1,41 +1,77 @@
-# Website
+# 📘 Documentation Setup Guide
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Follow these simple steps to set up and run this documentation locally on your machine.
 
-### Installation
+---
 
-```
-$ yarn
-```
+## 🚀 Prerequisites
 
-### Local Development
+Before you begin, make sure you have the following installed:
 
-```
-$ yarn start
-```
+- Node.js (version **20** or higher)
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+---
 
-### Build
+## 🛠️ Installation Steps
 
-```
-$ yarn build
-```
+### 1. Install Node.js  
+Download and install Node.js from the official website:  
+👉 [https://nodejs.org/](https://nodejs.org/)  
+> ⚠️ Make sure you’re using **Node.js v20.x.x or higher**
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+---
 
-### Deployment
+### 2. Open the Project in a Code Editor  
+Use any modern code editor like **Visual Studio Code** to open the project folder.
 
-Using SSH:
+---
 
-```
-$ USE_SSH=true yarn deploy
-```
+### 3. Verify Node.js Installation  
+Open your terminal and run the following command:
 
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
+```bash
+node -v
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+You should see a version number that starts with `20.` or higher.
+
+---
+
+### 4. Install Dependencies  
+Navigate to the root of the project folder in the terminal and run:
+
+```bash
+npm i
+```
+
+This will install all required packages and dependencies.
+
+---
+
+### 5. Start the Development Server  
+Once all dependencies are installed, run:
+
+```bash
+npm run start
+```
+
+This will compile and launch the documentation site locally.
+
+---
+
+### 6. View in Browser  
+After the server starts, it will typically open automatically in your default browser.  
+If it doesn’t, you can open the following link manually:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🌐 Don't want to run locally?
+
+You can view the live documentation here:  
+👉 **[Click here to view the live docs](#https://wrteam-in.github.io/eSchool-Doc/)**
+
+> _(Replace the `#` with your actual live link)_
