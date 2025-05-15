@@ -72,6 +72,4 @@ http://localhost:3000
 ## 🌐 Don't want to run locally?
 
 You can view the live documentation here:  
-👉 **[Click here to view the live docs](#https://wrteam-in.github.io/eSchool-Doc/)**
-
-> _(Replace the `#` with your actual live link)_
+👉 **[Click here to view the live docs](https://wrteam-in.github.io/eSchool-Doc/)**
