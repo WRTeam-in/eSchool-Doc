@@ -50,3 +50,14 @@
 }
 
 /* You can add other custom styles below */
+
+/* Force Docusaurus navbar to collapse at 1250px instead of 996px */
+@media (max-width: 1250px) {
+  .navbar__item {
+    display: none !important;
+  }
+
+  .navbar__toggle {
+    display: flex !important;
+  }
+}
