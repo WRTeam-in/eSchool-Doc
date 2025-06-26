@@ -2,26 +2,73 @@
 sidebar_position: 6
 ---
 
-# Change app logo
+# Change App Logo & Assets
 
-## Add Logo Manually
+Both **eSchool** and **eSchool Teacher** share the same asset structure, so updating branding is the same for both.
 
-For Android, open android > app > src > main > res and add here your logo according to device screen size 
+## Location of Assets
 
-![Android App Icon](../static/images/app/androidAppIcon.png)
+- General images: `assets/images/`
+- Branding-related assets: `assets/images/branding/`  
+  This folder contains 3 main logo files you need to update:
 
-For IOS open ios > Runner > Assets.xcassets > AppIcon.appiconset here and add your logo according to different size.
+| File | Usage |
+|------|-------|
+| `appLogo.svg` | Used **inside the app** (e.g., splash, login) |
+| `ic_launcher.png` | Used for **launcher icon** on Android & iOS |
+| `ic_launcher_transparent.png` | Used as **adaptive icon foreground** and **notification icon** on Android |
 
-![iOS App Icon](../static/images/app/iosAppIcon.png)
+Optional assets like `noInternet.svg`, `fileNotFound.svg`, etc., can also be customized for full visual branding.
 
-## Generate Logo Files With Package
+![assets](../static/images/app/assets.png)
 
-1. Add your logo file in assets/images folder
+---
 
-2. Add it's path and filename in pubspec.yaml file under flutter_launcher_icons configurations
+## Quick Method: Auto-Generate Launcher Icons
 
-3. Run this command to generate the ic_launcher files for both Android and IOS:
+Once you've replaced the three logo files with your own (keeping the **same names and formats**), run:
 
-   *flutter pub run flutter_launcher_icons*
+```sh
+dart run flutter_launcher_icons
+```
 
-![Generate App Logo](../static/images/app/generateAppLogo.png) 
+This command auto-generates the required icon assets for both Android and iOS using the configuration already present in `pubspec.yaml`.
+
+**No need to edit pubspec.yaml** – it's ready to go.
+
+![appicon1](../static/images/app/appicon1.png)
+
+---
+
+## Manually Add Launcher Icon (Optional)
+
+If you prefer to skip the automatic command, you can generate launcher icons using any online generator and manually add them to your Android and iOS resource folders.
+
+![appicon2](../static/images/app/appicon2.png)
+
+### Android
+
+- Place icons in the respective `res/mipmap-*` folders:
+  - `mipmap-mdpi/`, `mipmap-hdpi/`, `mipmap-xhdpi/`, etc.
+- For adaptive icons, use:
+  - `ic_launcher.png` (background)
+  - `ic_launcher_foreground.png` (foreground layer)
+- Also update:
+  - `AndroidManifest.xml` to ensure the correct icon is referenced
+  - Notification icon in the notification utility if you’ve changed the filename
+
+### iOS
+
+- Replace icon assets inside:
+  ```
+  ios/Runner/Assets.xcassets/AppIcon.appiconset/
+  ```
+- Ensure all required sizes are present or regenerate using Xcode's asset tools
+
+After placing all files manually, rebuild the project:
+
+```sh
+flutter clean
+flutter pub get
+flutter run
+```
