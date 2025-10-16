@@ -5,20 +5,28 @@ title: Changelog
 
 # Changelog
 
+## Version 3.3.4 (16 October 2025)
+
+- **[Updated]** Backend code to work with Laravel 12 with PHP 8.3
+- **[Added]** Firebase topic-based notifications
+- **[Added]** Android 16KB page size support
+- **[Updated]** Both Flutter application codes now compatible with version 3.35
+- **[Improved]** Bug fixes and performance enhancements
+
 ## Version 3.3.3 (18 April 2025)
 
 - **[Updated]** App compatibility with Flutter 3.29 & Android 15 (SDK 35)
 - **[Fixed]** Leave request status change issue in teacher app
 - **[Fixed]** Razorpay release mode crash (ProGuard rules added)
 
-## Version 3.3.2 (6 Feb 2025)
+## Version 3.3.2 (6 February 2025)
 
 - **[Re-designed]** Teacher app home for a better layout and organised sections  
 - **[Added]** Staff Leaves Section in Teacher panel dashboard  
 - **[Added]** Option for teachers to manage class timetable links  
 - **[Updated]** Both apps now compatible with Flutter 3.27 & AGP 8
 
-## Version 3.3.1 (13 Nov 2024)
+## Version 3.3.1 (13 November 2024)
 
 - **[Added]** Student Leave Management
 - **[Added]** FlutterWave Payment Gateway
@@ -26,7 +34,7 @@ title: Changelog
 - **[Updated]** Multi-gateway support, letting users choose their preferred payment method
 - **[Added]** Captcha in admission and contact forms to prevent spam
 
-## Version 3.3.0 (17 Sept 2024)
+## Version 3.3.0 (17 September 2024)
 
 - **[Added]** Student self-registration from web with admin approval
 - **[Added]** Semester management for classes
@@ -63,7 +71,7 @@ title: Changelog
 - **[Added]** Teacher & Parent form custom fields
 - **[Improved]** Assignment submission: Undo submissions to re-submit new files
 
-## Version 3.1.0 (12 Apr 2024)
+## Version 3.1.0 (12 April 2024)
 
 - **[Added]** Staff Management functionality
 - **[Added]** School Events feature in apps and website
@@ -74,13 +82,13 @@ title: Changelog
 - **[Updated]** App Codes to be Compatible with the latest Flutter version (3.19.5)
 - **[Updated]** Firebase notifications to utilize HTTP v1 APIs, migrating from Legacy API
 
-## Version 3.0.0 (28 Feb 2024)
+## Version 3.0.0 (28 February 2024)
 
 - **[Added]** eSchool Web: A platform for showcasing your school
 - **[Added]** Dynamic web settings within the admin panel, enabling seamless modification of website data
 - **[Enhanced]** Flutter application codes to ensure compatibility with the latest version, optimising performance and user experience
 
-## Version 2.1.1 (22 Jan 2024)
+## Version 2.1.1 (22 January 2024)
 
 - **[Added]** User Search in chat for all users, across both apps
 - **[Added]** PayStack payment gateway for seamless fee transactions
@@ -92,7 +100,7 @@ title: Changelog
 - **[Fixed]** Assigned assignments not showing for some students
 - **[Modified]** Demo Mode functionality is now retrieving the on/off value from the backend, eliminating the need for application-side adjustments by customers
 
-## Version 2.1.0 (3 Jan 2024)
+## Version 2.1.0 (3 January 2024)
 
 - **[Added]** Chat Module:
   - Facilitates communication between teachers and students and between teachers and parents in both applications
@@ -100,7 +108,7 @@ title: Changelog
   - Supports sharing text, links, images, PDFs and files with customisable restrictions
   - Unread chats and unread message count is maintained for users
 
-## Version 2.0.2 (6 Nov 2023)
+## Version 2.0.2 (6 November 2023)
 
 - **[Added]** Dynamic fields for the Student Admission Form
 - **[Added]** Custom Notifications feature
@@ -110,7 +118,7 @@ title: Changelog
 - **[Modified]** Optional parental fields; for students without parents' guardian details can be entered exclusively and guardians can log in as their parents from the application
 - **[Enhanced]** Improved online payment security, addressed minor bugs, and refined the user interface for a better experience
 
-## Version 2.0.1 (21 Sep 2023)
+## Version 2.0.1 (21 September 2023)
 
 - **[Added]** Bulk attendance adding feature from Teacher Panel
 - **[Added]** Statistics in Admin panel dashboard
@@ -121,7 +129,7 @@ title: Changelog
 - **[Modified]** Documentation now includes informative Feature usage videos
 - **[Improved]** Addressed bugs, enhanced the design of the user interface on several screens, and implemented code enhancements
 
-## Version 2.0.0 (21 Aug 2023)
+## Version 2.0.0 (21 August 2023)
 
 - **[Added]** eSchool Teacher application with eSchool project
 - **[Modified]** One teacher can be a class teacher of multiple classes
@@ -143,21 +151,21 @@ title: Changelog
 - **[Updated]** Compatible with Flutter version 3.10.5
 - **[Improved]** Various improvements and bug fixes
 
-## Version 1.0.5 (3 Feb 2023)
+## Version 1.0.5 (3 February 2023)
 
 - **[Added]** Online Exam Module
 - **[Added]** Teacher can have permission to manage the student's data
 - **[Added]** Generate Roll Number for Students
 - **[Improved]** Admin & Teacher Panel improvements
 
-## Version 1.0.4 (8 Dec 2022)
+## Version 1.0.4 (8 December 2022)
 
 - **[Added]** Fees Module
 - **[Added]** Unique Subject validation
 - **[Added]** New Design for Timetable Module
 - **[Improved]** Admin & Teacher Panel improvements
 
-## Version 1.0.3 (15 Sep 2022)
+## Version 1.0.3 (15 September 2022)
 
 - **[Added]** Exam & Exam Timetable Module
 - **[Added]** Grade & Result Module

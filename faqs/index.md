@@ -22,8 +22,8 @@ To ensure optimal performance of the eSchool system, please follow the compatibi
 - **Recommended Hosting Provider**: Hostinger
 
 ### Backend Compatibility
-- **PHP Version**: 8.1
-- **Framework**: Laravel 9
+- **PHP Version**: 8.3
+- **Framework**: Laravel 12
 
 ### Flutter App Compatibility
-- **Flutter Version**: 3.29
+- **Flutter Version**: 3.35

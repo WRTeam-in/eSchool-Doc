@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Prerequisite
 
-eSchool Admin panel is built using **Laravel Framework 9.14.1** so you need **PHP version upto 8.1.0** version installed on your server.
+eSchool Admin panel is built using **Laravel Framework 12** so you need **PHP version upto 8.3** version installed on your server.
 
 ## Upload Admin Panel code on server
 

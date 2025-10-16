@@ -10,7 +10,7 @@ sidebar_position: 3
 
 ## 2. Server Requirements & Extensions
 
-If PHP version is lower than 8.0 or any extension is not installed then it will be highlighted using Red color. So you need to make sure that your server meets all requirements.
+If PHP version is lower than 8.3 or any extension is not installed then it will be highlighted using Red color. So you need to make sure that your server meets all requirements.
 
 ![Server Requirements](../static/images/admin/2.png)
 
