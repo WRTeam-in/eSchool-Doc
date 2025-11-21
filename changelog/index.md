@@ -5,7 +5,17 @@ title: Changelog
 
 # Changelog
 
-## Version 3.3.4 (16 October 2025)
+## Version 3.3.5 (21 November 2025)
+
+- **[Added]** Admin control for student leave requests
+- **[Added]** Academic Calendar PDF download
+- **[Added]** Admin ability to assign or modify students’ elective subjects
+- **[Added]** Semester start/end dates and break details in Academic Calendar
+- **[Added]** Current session year shown in Admin Panel header
+- **[Improved]** Teachers with permission can add students to any class
+- **[Fixed]** Leave rejection reason not displaying
+
+## Version 3.3.4 (17 October 2025)
 
 - **[Updated]** Backend code to work with Laravel 12 with PHP 8.3
 - **[Added]** Firebase topic-based notifications
