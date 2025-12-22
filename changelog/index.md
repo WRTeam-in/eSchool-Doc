@@ -5,6 +5,13 @@ title: Changelog
 
 # Changelog
 
+## Version 3.3.6 (22 December 2025)
+
+- **[Improved]** Promotion flow in Admin Panel
+- **[Added]** School Website “Explore” option in both apps without login
+- **[Added]** Firebase Crash Analytics in both apps
+- **[Fixed]** UI issues from Android 16 edge-to-edge display changes
+
 ## Version 3.3.5 (21 November 2025)
 
 - **[Added]** Admin control for student leave requests
