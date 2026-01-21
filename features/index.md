@@ -2,6 +2,10 @@
 sidebar_position: 1
 ---
 
+import DocBanner from '@site/src/components/DocBanner/DocBanner';
+
+<DocBanner />
+
 # Features Overview
 
 Welcome to the e-School Features Documentation. This comprehensive guide provides detailed information about all the features available in the e-School system, helping you understand and utilize the platform effectively.

@@ -2,6 +2,10 @@
 sidebar_position: 1
 ---
 
+import DocBanner from '@site/src/components/DocBanner/DocBanner';
+
+<DocBanner />
+
 # Web Pages
 
 Thank you for purchasing **e-School**. We appreciate your support. In this documentation, you will find instructions on how to set up and manage the web pages for e-School. This document also provides features of e-School's web interface.
