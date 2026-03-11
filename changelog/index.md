@@ -5,6 +5,15 @@ title: Changelog
 
 # Changelog
 
+## Version 3.4.0 (12 March 2026)
+
+- **[Added]** Session year–wise data structure across the system
+- **[Added]** Global session year dropdown filter in panel header
+- **[Added]** Gallery module in both Teacher and Student apps
+- **[Added]** Option to delete unnecessary data of a session year
+- **[Added]** Force delete for interlinked data (related records will be deleted together)
+- **[Improved]** CRUD operations are now session-aware
+
 ## Version 3.3.6 (22 December 2025)
 
 - **[Improved]** Promotion flow in Admin Panel

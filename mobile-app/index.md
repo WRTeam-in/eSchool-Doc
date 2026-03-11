@@ -2,15 +2,14 @@
 sidebar_position: 1
 ---
 
+# Mobile Application
+
+Thank you for purchasing **e-School**. We appreciate your support. In this documentation, you will find instructions on how to set up the mobile application for e-School. This document also provides features of e-School.
+
 import DocBanner from '@site/src/components/DocBanner/DocBanner';
 
 <DocBanner />
 
-# Mobile Application
-
-## Overview
-
-Thank you for purchasing **e-School**. We appreciate your support. In this documentation, you will find instructions on how to set up the mobile application for e-School. This document also provides features of e-School.
 
 ## Contact Information
 

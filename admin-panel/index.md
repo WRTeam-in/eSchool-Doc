@@ -2,13 +2,13 @@
 sidebar_position: 1
 ---
 
-import DocBanner from '@site/src/components/DocBanner/DocBanner';
-
-<DocBanner />
-
 # Admin Panel
 
 Thank you for purchasing **e-School**. We appreciate your support. In this documentation, you will find instructions on how to set up the admin panel for e-School. This document also provides features of e-School.
+
+import DocBanner from '@site/src/components/DocBanner/DocBanner';
+
+<DocBanner />
 
 ## Contact Information
 

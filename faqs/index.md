@@ -26,4 +26,4 @@ To ensure optimal performance of the eSchool system, please follow the compatibi
 - **Framework**: Laravel 12
 
 ### Flutter App Compatibility
-- **Flutter Version**: 3.38
+- **Flutter Version**: 3.41
