@@ -13,7 +13,7 @@ import DocBanner from '@site/src/components/DocBanner/DocBanner';
 ## Contact Information
 
 **By:** WRTeam  
-**Email:** [purnima.wrteam@gmail.com](mailto:purnima.wrteam@gmail.com)
+**Email:** [wrteam.mantragor@gmail.com](mailto:wrteam.mantragor@gmail.com)
 
 ## About This Documentation
 
