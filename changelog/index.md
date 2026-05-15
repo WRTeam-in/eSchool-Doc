@@ -5,6 +5,13 @@ title: Changelog
 
 # Changelog
 
+## Version 3.4.1 (15 May 2026)
+
+- **[Added]** Session year–wise semester management for classes
+- **[Added]** Semester-aware support across academic modules and applications
+- **[Enhanced]** Offline exam results with semester-wise support and dedicated result management
+- **[Updated]** Application codes are now compatible with Flutter 3.41.9
+
 ## Version 3.4.0 (12 March 2026)
 
 - **[Added]** Session year–wise data structure across the system
