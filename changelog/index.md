@@ -5,6 +5,10 @@ title: Changelog
 
 # Changelog
 
+## Version 3.4.2 (25 May 2026)
+
+- **[Fixed]** Minor issues to improve stability, performance, and user experience
+
 ## Version 3.4.1 (15 May 2026)
 
 - **[Added]** Session year–wise semester management for classes
