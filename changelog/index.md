@@ -5,6 +5,30 @@ title: Changelog
 
 # Changelog
 
+## Version 3.5.0 (20 Jul 2026)
+
+- **[Added]** Student Reports for Attendance, Fees, Exams, Assignments, and Leaves
+- **[Added]** Teacher ID Card view and download support
+- **[Added]** Teacher & Staff Attendance and Attendance Reports
+- **[Added]** Support for four attendance types with leave-aware validation
+- **[Added]** Staff ID Card customization in the Admin Panel
+- **[Added]** School Admin support for Teacher & Staff Leave Management
+- **[Added]** Custom email templates for Student Admission and Teacher/Staff creation
+- **[Added]** Month-wise Student Attendance Reports
+- **[Improved]** Assignment submission modal UI in the Admin Panel
+- **[Improved]** Class details view with semester information
+- **[Added]** Backup reminder before system updates in the Admin Panel
+- **[Fixed]** Google reCAPTCHA integration issues
+- **[Updated]** Android application code migrated from Java to Kotlin
+- **[Updated]** Application codes are now compatible with Flutter 3.44.6
+
+## Version 3.4.3 (22 Jun 2026)
+
+- **[Improved]** Major Admin Panel UI/UX redesign and dashboard enhancements
+- **[Added]** Student Profile UI improvements with ID Card view and download support in app
+- **[Added]** Enhanced ID Card customization options with real-time preview support in admin panel
+- **[Improved]** Role management, online exam management, timetable workflows, teacher management, validations, and overall system stability
+
 ## Version 3.4.2 (25 May 2026)
 
 - **[Fixed]** Minor issues to improve stability, performance, and user experience
